@@ -2,8 +2,7 @@
 *.class
 *.xml
 *.properties
-nbproject
-nbproject/private
+
 
 
 
