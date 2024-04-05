@@ -10,7 +10,7 @@ import view.loginView;
 
 /**
  *
- * @author nn
+ * @author Matin
  */
 public class ctrlViewLogin {
     public static ArrayList<Login> listaUser; 

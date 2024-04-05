@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Ferrando Carlos
+ * @author Ferrando Carlos y Damina
  */
 public class loginView extends javax.swing.JFrame {
 
