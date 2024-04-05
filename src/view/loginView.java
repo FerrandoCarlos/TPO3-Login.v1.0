@@ -19,6 +19,7 @@ public class loginView extends javax.swing.JFrame {
      */
     public loginView() {
         initComponents();
+        controller.ctrlViewLogin.CargarInstancia(this);
     }
 
     /**
