@@ -1,7 +1,7 @@
 
-package tpo3.login.v1.pkg0;
+package controller;
 
-import tpo3.login.v1.pkg0.vistas.loginView;
+import view.loginView;
 
 /**
  * @author Ferrando Carlos
