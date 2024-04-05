@@ -1,14 +1,10 @@
 # Compiled class file
 *.class
-*.xml
-*.properties
-
-
-
 
 # Log file
 *.log
-
+*.xml
+*.properties
 # BlueJ files
 *.ctxt
 
@@ -23,12 +19,10 @@
 *.zip
 *.tar.gz
 *.rar
-
+*.xml
+*.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 /build/
-/dist/
-nbproject/
-nbproject/private/
-
+/nbproject/
