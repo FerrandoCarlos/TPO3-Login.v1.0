@@ -4,6 +4,10 @@
  */
 package view;
 
+
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Ferrando Carlos
@@ -30,12 +34,12 @@ public class loginView extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jTFemail = new javax.swing.JTextField();
+        jTxtUser = new javax.swing.JTextField();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel4 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
-        jPFpassword = new javax.swing.JPasswordField();
-        jBTNlogin = new javax.swing.JButton();
+        jTxtClave = new javax.swing.JPasswordField();
+        jBtnLogin = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -88,9 +92,9 @@ public class loginView extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/img/socialemailcircularbutton_80177.png"))); // NOI18N
 
-        jTFemail.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jTFemail.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        jTFemail.setBorder(null);
+        jTxtUser.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        jTxtUser.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        jTxtUser.setBorder(null);
 
         jSeparator1.setBackground(new java.awt.Color(255, 255, 255));
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
@@ -100,14 +104,9 @@ public class loginView extends javax.swing.JFrame {
         jSeparator2.setBackground(new java.awt.Color(255, 255, 255));
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
 
-        jPFpassword.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jPFpassword.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        jPFpassword.setBorder(null);
-        jPFpassword.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jPFpasswordActionPerformed(evt);
-            }
-        });
+        jTxtClave.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        jTxtClave.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        jTxtClave.setBorder(null);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -123,11 +122,11 @@ public class loginView extends javax.swing.JFrame {
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTFemail))
+                                .addComponent(jTxtUser))
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPFpassword)))
+                                .addComponent(jTxtClave)))
                         .addContainerGap())))
         );
         jPanel3Layout.setVerticalGroup(
@@ -135,26 +134,26 @@ public class loginView extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTFemail)
+                    .addComponent(jTxtUser)
                     .addComponent(jLabel3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPFpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtClave, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(20, 20, 20))
         );
 
-        jBTNlogin.setBackground(new java.awt.Color(0, 0, 0));
-        jBTNlogin.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
-        jBTNlogin.setForeground(new java.awt.Color(255, 255, 255));
-        jBTNlogin.setText("REGISTRARSE");
-        jBTNlogin.addActionListener(new java.awt.event.ActionListener() {
+        jBtnLogin.setBackground(new java.awt.Color(0, 0, 0));
+        jBtnLogin.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
+        jBtnLogin.setForeground(new java.awt.Color(255, 255, 255));
+        jBtnLogin.setText("REGISTRARSE");
+        jBtnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBTNloginActionPerformed(evt);
+                jBtnLoginActionPerformed(evt);
             }
         });
 
@@ -172,7 +171,7 @@ public class loginView extends javax.swing.JFrame {
                         .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(60, 60, 60)
-                        .addComponent(jBTNlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jBtnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 43, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
@@ -188,7 +187,7 @@ public class loginView extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jBTNlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBtnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(90, 90, 90))
         );
 
@@ -200,13 +199,9 @@ public class loginView extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPFpasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPFpasswordActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jPFpasswordActionPerformed
-
-    private void jBTNloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBTNloginActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jBTNloginActionPerformed
+    private void jBtnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnLoginActionPerformed
+         controller.ctrlViewLogin.jBtnLogin();
+    }//GEN-LAST:event_jBtnLoginActionPerformed
 
     /**
      * @param args the command line arguments
@@ -222,18 +217,29 @@ public class loginView extends javax.swing.JFrame {
     }
 */
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBTNlogin;
+    private javax.swing.JButton jBtnLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPasswordField jPFpassword;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JTextField jTFemail;
+    private javax.swing.JPasswordField jTxtClave;
+    private javax.swing.JTextField jTxtUser;
     // End of variables declaration//GEN-END:variables
+
+    public JPasswordField getjTxtClave() {
+        return jTxtClave;
+    }
+
+    public JTextField getjTxtUser() {
+        return jTxtUser;
+    }
+    
+    
+
 }

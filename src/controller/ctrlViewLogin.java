@@ -4,10 +4,20 @@
  */
 package controller;
 
+import java.util.ArrayList;
+import modelo.Login;
+
 /**
  *
  * @author nn
  */
 public class ctrlViewLogin {
+    public static ArrayList<Login> listaUser; 
     
+    
+    public static void jBtnLogin(){
+        
+        
+    
+    }
 }
