@@ -16,5 +16,5 @@ Crea una aplicación GUI en Java que simule un formulario de login. La interfaz 
 ### El trabajo se realizó de manera colaborativa sus integrantes son:
 - Jofre Agustin, DNI 38751595 [@aguz11](https://www.github.com/aguz11)
 - Piriz Dutra Martín DNI 34877112 [@mpirizdutra89](https://www.github.com/mpirizdutra89)
-- D'Eramo Damián, DNI [@DDamien88](https://www.github.com/DDamien88)
+- D'Eramo Damián, DNI 33515875 [@DDamien88](https://www.github.com/DDamien88)
 - Ferrando Carlos, DNI 28173863 [@FerrandoCarlos](https://www.github.com/FerrandoCarlos)
