@@ -6,7 +6,7 @@ import view.loginView;
 /**
  * @author Ferrando Carlos
  */
-public class TPO3LoginV10 {
+public class main {
 
    
     public static void main(String[] args) {
