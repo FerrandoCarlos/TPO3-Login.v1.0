@@ -13,7 +13,7 @@ public class main {
         loginView lv=new loginView();
         lv.setLocationRelativeTo(null);
         lv.setVisible(true);
-        
+        //aaaaa
     }
 
 }
