@@ -6,7 +6,7 @@ package modelo;
 
 /**
  *
- * @author nn
+ * @author agustin
  */
 public class Login {
     private String usuario;
